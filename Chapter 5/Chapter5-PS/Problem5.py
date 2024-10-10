@@ -1,0 +1,15 @@
+dict = {}
+
+name = input("Enter friends Name : ")
+lang = input("Enter Language name : ")
+dict.update({name : lang})
+name = input("Enter friends Name : ")
+lang = input("Enter Language name : ")
+dict.update({name : lang})
+name = input("Enter friends Name : ")
+lang = input("Enter Language name : ")
+dict.update({name : lang})
+name = input("Enter friends Name : ")
+lang = input("Enter Language name : ")
+dict.update({name : lang})
+print(dict)
